@@ -11,6 +11,7 @@ body{
 }
 #ani-char{
 	position:		absolute;
+	z-index: 1;
 }
 .block-div{
 	position:		absolute;
@@ -18,41 +19,31 @@ body{
 	height:			16px;
 }
 .block{
-	transition:1s;
-	font-size: 10px;
-	font-weight: bold;
-	line-height: 18px;
+	transition:		1s;
+	font-size:		10px;
+	font-weight:	bold;
+	line-height:	18px;
+	border:			1px solid black;
+	border-radius: 	3px;
+	width:			48px;
+	height:			16px;
+	z-index:		1;
 }
 #block-canvas{
 	position:		absolute;
 	background-color:white;
-	border:			1px solid black;
-	border-radius: 	3px;
-	width:			48px;
-	height:			16px;
+	
 }
 #block-javascript{
 	position:		absolute;
 	background-color:#e8b583;
-	border:			1px solid black;
-	border-radius: 	3px;
-	width:			48px;
-	height:			16px;
 }
 #block-css{
 	position:		absolute;
 	background-color:#a0ffe3;
-	border:			1px solid black;
-	border-radius: 	3px;
-	width:			48px;
-	height:			16px;
 }
 #block-html{
 	position:		absolute;
 	background-color:black;
 	color:			white;
-	border:			1px solid black;
-	border-radius: 	3px;
-	width:			48px;
-	height:			16px;
 }
